@@ -36,8 +36,8 @@ assessmentButton.onclick = () => {
   
   // TODO ツイートエリアの作成
 
-removeAllChildren(tweetDivided)
-  const anchor = document.createElement('a')
+removeAllChildren(tweetDivided)；
+  const anchor = document.createElement('a')；
   const hrefValue =
     'https://twitter.com/intent/tweet?button_hashtag='+
     encodeURIComponent('あなたのいいところ')+
@@ -50,10 +50,9 @@ removeAllChildren(tweetDivided)
   tweetDivided.appendChild(anchor);
 
 //widgets.js の設定
-  const script　=　document.createElement('script')
-  script.setAttribute('src','https:platform.twitter.com/widets.js');
+  const script　=　document.createElement('script')；
+  script.setAttribute('src','https:platform.twitter.com/widｇets.js');
   tweetDivided.appendChild(script);
-
 };
 
 
